@@ -29,7 +29,7 @@ Visit our [website] for audio samples using our published [Tacotron 2] and
 8. Install python requirements or build docker image 
     - Install python requirements: `pip install -r requirements.txt`
 
-## Training
+## Training phase
 1. `python train.py --output_directory=outdir --log_directory=logdir`
 2. (OPTIONAL) `tensorboard --logdir=outdir/logdir`
 
